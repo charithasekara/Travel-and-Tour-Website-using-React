@@ -1,42 +1,40 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+*{
+    margin : 0px ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/*colors and styling*/
+:root{
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor:#fff;
+    --gradinatcolor: linear-gradient(to right, hsl(187,85%, 43%), hsl(199, 100%, 33%)) ;
+    --whitecolor: hsl(0, 0%, 100%);
+    --blackColor: Ohs1 (201, 33%, 16%);
+    --textColor: Ohs1(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: Irgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: Irgb(225, 225, 235);
 }
-
-.card {
-  padding: 2em;
+a{
+text-decoration: none;
 }
-
-.read-the-docs {
-  color: #888;
+li{
+    list-style: none;
+}
+.section{
+    padding: 4rem 0 2rem;
+}
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
 }
