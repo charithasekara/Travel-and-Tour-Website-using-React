@@ -5,16 +5,10 @@ import Head from './Components/Head/Head'
 import Home from './Components/Home/Home'
 import Footer from './Components/Footer/Footer'
 
-function App() {
+const  App = () => {
 
   return (
-    <>
-     <Navbar/>
-      {/*<Home/>
-      <Head/>
-  <Footer />*/}
-
-    </>
+   <h2>App</h2>
   )
 }
 
